@@ -17,7 +17,7 @@ class Song
   end
   
   def self.genres
-    count = 0
     arr = []
+    arr.map.!include?(genre) ? arr << genre : nil
   end
 end
