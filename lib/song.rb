@@ -18,7 +18,7 @@ class Song
   
   def self.genres
     arr = []
-    arr.!include?(genre) ? arr << genre : nil
+    arr.!include?(@@genre) ? @@genre << genre : nil
     arr
   end
 end
